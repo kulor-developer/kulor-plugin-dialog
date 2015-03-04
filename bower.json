@@ -13,6 +13,9 @@
     "type"    : "git" ,
     "url"     : "git@github.com:nihaox1/kulor-plugin-dialog.git"
   } ,
+  "dependencies"  : {
+    "kulor-plugin-panel"    : "0.0.1"
+  } ,
   "license": "MIT",
   "homepage": "https://github.com/nihaox1/kulor"
 }
