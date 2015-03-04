@@ -1,9 +1,12 @@
-link( type="text/css" , rel="stylesheet" , href="panel.css" )
-script( type="text/javascript" , src="panel.js" )
+include ../panel/index.jade
+link( type="text/css" , rel="stylesheet" , href="dialog.css" )
+script( type="text/javascript" , src="dialog.js" )
 
-script( type="text/kulor-template" , id="uiSub-panel-container" )
-    div(class="uiSub-panel-container-pos-center uiSub-hidden uiSub-panel-theme-{{theme}}")
-        .uiSub-panel-container-pos-center-left-fixed
-
-script( type="text/kulor-template" , id="uiSub-panel-coverBy" )
-    .uiSub-panel-coverBy.uiSub-hidden
+script( type="text/kulor-template" , id="uiSub-dialog-container" )
+    div(class="uiSub-dialog-container uiSub-dialog-theme-{{theme}}" , style="width:{{width}};")
+        h5.uiSub-dialog-title {{title}}
+            i.uiSub-dialog-close(uiSub-role="cancel") X
+        .uiSub-dialog-content {{content}}
+        .uiSub-btn-footer 
+            a.btn.btn-info(uiSub-role="success") {{successBtnName}}
+            a.btn.btn-default(uiSub-role="cancel") {{cancelBtnName}}
