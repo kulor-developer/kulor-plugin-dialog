@@ -12,6 +12,6 @@
   "license": "MIT",
   "homepage": "",
   "dependencies": {
-    "kulor-plugin-panel": "^0.0.2"
+    "kulor-plugin-panel": "^0.0.3"
   }
 }
