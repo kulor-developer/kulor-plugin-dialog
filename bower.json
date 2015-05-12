@@ -14,7 +14,7 @@
     "url"     : "git@github.com:nihaox1/kulor-plugin-dialog.git"
   } ,
   "dependencies"  : {
-    "kulor-plugin-panel"    : "^0.0.3"
+    "kulor-plugin-panel"    : "~0.0.3"
   } ,
   "kulor"     : {
     "requireName"   : "dialog" ,
